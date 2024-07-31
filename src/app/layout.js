@@ -1,6 +1,5 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Layout/Header";
 import Link from "next/link";
 import {
   RiCalendarLine,
@@ -175,7 +174,6 @@ export default function RootLayout({ children }) {
               </div>
             </aside>
             <div className="flex-1 px-4 lg:px-8">
-              <Header />
               <main>{children}</main>
             </div>
           </div>

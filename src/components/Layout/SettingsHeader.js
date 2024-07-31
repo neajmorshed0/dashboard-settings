@@ -5,7 +5,7 @@ import {
 } from "@remixicon/react";
 import React from "react";
 
-export default function Header() {
+export default function SettingsHeader() {
   return (
     <header className="py-5 ">
       <div className="flex items-center justify-between gap-3 ">
